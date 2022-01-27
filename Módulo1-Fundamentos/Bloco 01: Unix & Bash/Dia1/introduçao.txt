@@ -1,0 +1,99 @@
+1- //Cria e navega até o diretório 
+
+  mkdir unix_test
+  Cd unix_test
+
+2 - //Crie um arquivo de texto
+
+  touch trybe.txt
+
+3 - //Crie uma cópia do arquivo 
+
+   cp trybe.txt trybe_backup.txt
+
+4 - //Renomeie o arquivo
+
+  mv trybe.txt renomeado.txt
+
+5 - //Crie novo diretório
+  mkdir backup 
+
+6 - //Mover o arquivo backup para pasta
+  mv trybe_backup backup
+
+7 - //Cria um novo diretório 
+  mkdir backup2
+
+8 - //Mover um arquivo de um diretório para outro
+  mv trybe_backup ../backup2
+
+9 - //Apaga a pasta
+  rm -rf backup
+
+10 - //Renomeie a pasta
+  mv backup backup2
+
+11 - //eja qual o path completo do diretório 
+atual e liste todos os arquivos dentro dele.
+  pwd
+  ls -a 
+
+12 - //Apague o diretório
+  rmdir backup
+
+13 - //Limpe o terminal
+  clear
+
+# baixando uma arquivo
+
+14 - //Mostre na tela as 5 primeiras skills do arquivo skills.txt.
+  head -5 skills.txt
+
+15 - //Mostre na tela as 4 últimas skills do arquivo skills.txt.
+  tail -4 skills.txt
+
+16 - //Apague todos os arquivos que terminem em .txt
+  rm *.txt
+
+Parte 2
+1- //Na pasta unix_tests , baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
+  curl -o nome-para-dar-ao-arquivo "url"
+
+2- //Mostre todo o conteúdo do arquivo countries.txt na tela.
+  cat countries.txt
+
+3- //Mostre o conteúdo de countries.txt , página por página
+  less countries.txt
+
+4- //agora utilize um comando para buscar por Zambia.
+  /Zambia
+
+5- //Busque por Brazil
+  grep 'Brazil' countries.txt
+
+6- //Agora com lower case
+  grep -i 'brazil' countries.txt
+
+7- //Busque pelas frases que não contenham a palavra fox.
+  grep -v 'fox' pharases.txt
+
+8- //Conte o número de palavras do arquivo phrases.txt. 
+  wc -w pharases.txt
+
+9- //Conte o número de linhas do arquivo phrases.txt.
+  wc -l pharases.txt
+
+10- //Crie os arquivos empty.tbt e empty.pdf
+  touch empty.tbt empty.pdf
+
+11- //Liste todos os arquivos do diretório unix_tests
+  #dentro de unix_tests
+  ls -ls
+
+12- //Liste todos os arquivos que terminem com txt
+  ls "*.txt"
+
+13- //Liste todos os arquivos que terminem com tbt ou txt
+  ls "*.t?t"
+14- //Acesse o manual do comando ls
+  man ls
