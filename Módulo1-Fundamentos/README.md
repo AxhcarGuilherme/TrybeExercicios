@@ -9,11 +9,11 @@
 
 - [X] 2-1: _O que é e para que serve?_
 - [X] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [X] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [ ] 3-1: _Introdução - HTML & CSS_
+- [X] 3-1: _Introdução - HTML & CSS_
 - [ ] 3-1: _HTML & CSS - Estrutura de página_
 - [ ] 3-2: _HTML & CSS - Primeiro passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
