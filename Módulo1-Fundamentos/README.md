@@ -16,13 +16,13 @@
 - [X] 3-1: _Introdução - HTML & CSS_
 - [X] 3-1: _HTML & CSS - Estrutura de página_
 - [X] 3-2: _HTML & CSS - Primeiro passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _[Projeto - Lessons Learned]()_
+- [X] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [X] 3-4: _HTML Semântico_
+- [X] 3-5: _[Projeto - Lessons Learned]()_
 
 ##### Bloco 4: Introdução - JavaScript e Lógica de Programação
 
-- [ ] 4-1: _Introdução - JavaScript_
+- [X] 4-1: _Introdução - JavaScript_
 - [ ] 4-1: _JavaScript - Primeiros passos_
 - [ ] 4-2: _JavaScript - Array e loop For_
 - [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
