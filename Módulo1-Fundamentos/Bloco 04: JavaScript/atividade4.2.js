@@ -58,15 +58,15 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 // console.log(menor);
 
-//atv8
+// atv8
 // let num = [];
 // for(let count = 0; count < 25; count +=1){
 //   num.push(count+1);
-  // console.log(count+1);
+//   console.log(count+1);
 // }
 
-//atv9
-//continuando da atv8
+// atv9
+// continuando da atv8
 // for(let position = 0; position < 25; position+=1){
 //   console.log(num[position]/2);
 // }
