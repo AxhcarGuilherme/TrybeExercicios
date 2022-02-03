@@ -174,4 +174,11 @@ if (valorVenda<0){
 let valorCustoTotal = valorProduto + (valorProduto*0.2);
 let lucro = (valorVenda - valorCustoTotal)*1000;
 console.log("Valor do Lucro:"+lucro);
+
+*/
+
+/*Atividade 11
+
+
+
 */
