@@ -7,5 +7,13 @@
 
 // Atv2
 let word = 'trybe';
-let invertida  = word.split("").reverse("").join("");
-console.log(invertida);
+function inversor (str){
+  let invertida = "";
+  for (let count = str.length - 1; count >= 0; count-= 1){
+     invertida += str[count];
+  }
+  return invertida;
+}
+console.log(inversor(word));
+
+//Atv3
