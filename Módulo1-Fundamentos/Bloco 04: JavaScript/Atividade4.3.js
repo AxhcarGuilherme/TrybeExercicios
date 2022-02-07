@@ -47,7 +47,7 @@ function encontraMenor (array){
 }
 console.log(encontraMenor(array));
 ------------------------------------------------------------------------------
-*/
+
 Atv4
 let maiorPrimo = 0;
 
@@ -64,3 +64,4 @@ for (let index = 2 ;index <= 50; index +=1){
 
 }
 console.log("O maior primo entre 1 e 50 é : "+maiorPrimo);
+*/
