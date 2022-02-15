@@ -114,3 +114,62 @@ function mouseOut() {
 
 }
 mouseOut();
+
+function addTask(taskAction) {
+  let taskList = document.querySelector('.my-tasks');
+  let task = document.createElement('span');
+  task.innerText = taskAction;
+  taskList.appendChild(task);
+}
+addTask('Odiar');
+
+function addTaskColor(colorTask) {
+  let taskList = document.querySelector('.my-tasks');
+  let newTask = document.createElement('div');
+  newTask.className = 'task';
+  newTask.style.backgroundColor = colorTask;
+
+  taskList.appendChild(newTask);
+}
+addTaskColor('green');
+
+
+function selectTask() {
+  let taskActive = document.getElementsByClassName('task selected');
+  let taskSelected = document.querySelector('.task');
+
+  taskSelected.addEventListener('click', colorSelectTask);
+  function colorSelectTask(evento){
+    if (taskActive.length === 0) {
+      evento.target.className = 'task selected';
+    }
+    else{
+      evento.target.className = 'task';
+    }
+  }
+}
+selectTask();
+
+function colorDay() {
+  let taskSelected = document.getElementsByClassName('task selected');
+  let daysList = document.querySelector('#days');
+  let task = document.querySelector('.task');
+  let taskColor = task.style.backgroundColor;
+
+  daysList.addEventListener('click', setColorDay);
+  function setColorDay(evento) {
+    let selectedDayColor = evento.target.style.color;
+    if (taskSelected.length !== 0) {
+      if (evento.target.style.color !== taskColor) {
+        evento.target.style.color = taskColor;
+      }
+      else {
+        evento.target.style.color = 'rgb(119,119,119)';
+      }
+    }
+    else{
+      alert('Nenhuma tarefa selecionada!');
+    }
+  }
+}
+colorDay();
