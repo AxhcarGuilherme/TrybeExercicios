@@ -5,7 +5,7 @@ function createDaysOfTheWeek() {
   for (let index = 0; index < weekDays.length; index += 1) {
     const days = weekDays[index];
     const dayListItem = document.createElement('li');
-    dayListItem.innerHTML = days;
+    dayListItem.innerText = days;
 
     weekDaysList.appendChild(dayListItem);
   };
