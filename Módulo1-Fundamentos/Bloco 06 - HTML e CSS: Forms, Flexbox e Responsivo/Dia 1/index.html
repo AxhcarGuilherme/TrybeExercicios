@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trybe-Trip</title>
+  </head>
+  <body>
+    <header id="title">
+      <h1>Trybe-Trip</h1>
+      <h2>Concorra a uma viagem!</h2>
+      <span>Para isso basta preencher o formulário abaixo</span>
+    </header>
+    <main class="container">
+      <h2 id="form-title">Insira seus Dados</h2>
+      <form action="" method="get">
+        <div class="item-form">
+          <label for="input-nome">Nome completo :</label>
+          <input class="input-form" type="text" minlength="10" maxlength="40" name="nome" id="input-nome" required>
+        </div>
+        <div class="item-form">
+          <label for="input-email">E-mail :</label>
+          <input class="input-form" type="email" minlength="10" maxlength="50" name="email" id="input-email" required>
+        </div>
+        <div class="item-form">
+          <div id="select-place">
+            <legend>Local da viagem:</legend>
+            <input type="radio" name="local" id="">
+            <label for="">Cidade</label>
+            <input type="radio" name="local" id="">
+            <label for="">Campo</label>
+            <input type="radio" name="local" id="">
+            <label for="">Praia</label>
+            <input type="radio" name="local" id="">
+            <label for="">Montanha</label>
+          </div>
+        </div>
+        <div class="item-form">
+          <label for="area-text">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+          <textarea class="input-form" name="motivo" id="area-text" cols="30" rows="10" maxlength="500"></textarea>
+        </div>
+        <div class="item-form">
+          <label for="input-data">Data :</label>
+          <input type="date" name="data" id="input-data">
+        </div>
+        <div class="item-form check-item">
+          <input type="checkbox" name="termos" id="termo-condição-1">
+          <label for="">Aceita os termos de serviço</label>
+          <input type="checkbox" name="notificação" id="notificação">
+          <label for="">Receber atualização no E-mail</label>
+        </div>
+
+        <div class="item-form">
+          <button id="btn-submit" type="submit">Enviar</button>
+        </div>
+
+      </form>
+
+    </main>
+  </body>
+</html>
