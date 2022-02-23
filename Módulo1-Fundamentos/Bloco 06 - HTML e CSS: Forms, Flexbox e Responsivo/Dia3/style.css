@@ -57,9 +57,12 @@
 .gallery-img {
   width: 150px;
 }
+.footer {
+  width: 9%;
+  margin: auto;
+}
 .links{
   border-top: 1px solid black;
-  
   padding: 5px;
   display: flex;
   justify-content: center;
