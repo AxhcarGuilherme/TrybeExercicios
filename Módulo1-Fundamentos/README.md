@@ -49,7 +49,7 @@
 - [X] 6-3: _Introdução - CSS Flexbox_
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
+- [X] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _[Projeto - Trybewarts]()_
 
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
