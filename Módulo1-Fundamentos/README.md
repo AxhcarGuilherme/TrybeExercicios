@@ -55,7 +55,7 @@
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Fluxo de execeção e Objetos_
+- [X] 7-2: _JavaScript ES6 - Fluxo de execeção e Objetos_
 - [ ] 7-3: _Primeiros passos em Jest_
 - [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
