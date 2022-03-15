@@ -98,5 +98,5 @@ const books = [
 // console.log(listBooks60Years);
 
 //  Atividade 7----------------------------------
-const searchAuthorInitials = books.find((book) => book.author.name[1] === '.' && book.author.name[4] === '.' && book.author.name[7] === '.');
-console.log(searchAuthorInitials);
+// const searchAuthorInitials = books.find((book) => book.author.name[1] === '.' && book.author.name[4] === '.' && book.author.name[7] === '.');
+// console.log(searchAuthorInitials);
