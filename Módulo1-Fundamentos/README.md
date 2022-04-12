@@ -38,9 +38,9 @@
 - [X] 5-5: _Fundamentos - JavaScript - Projetos_
 - [X] 5-5: _[Projeto - Arte com Pixels]()_
 - [X] 5-6: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor(Bônus)]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa(Bônus)]()_
-- [ ] 5-7: _[Projeto - Meme Generator]()_
+- [X] 5-7: _[Projeto - Adivinhe a Cor(Bônus)]()_
+- [X] 5-7: _[Projeto - Carta Misteriosa(Bônus)]()_
+- [X] 5-7: _[Projeto - Meme Generator]()_
 
 ##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
@@ -72,6 +72,6 @@
 
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [X] 9-3: _Jest - Testes Assíncronos_
+- [X] 9-3: _[Projeto - Carrinho de Compras]()_
 
