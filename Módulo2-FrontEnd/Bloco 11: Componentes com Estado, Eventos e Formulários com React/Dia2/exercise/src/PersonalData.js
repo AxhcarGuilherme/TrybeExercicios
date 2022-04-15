@@ -10,7 +10,7 @@ class PersonalData extends Component {
         <br/>
         <label>
           Nome:
-          <textarea
+          <input
             className="input"
             name="name"
             value={ name }
@@ -22,7 +22,7 @@ class PersonalData extends Component {
         </label>
         <label>
           E-Mail:
-          <textarea
+          <input
             className="input"
             name="email"
             type="email"
@@ -34,7 +34,7 @@ class PersonalData extends Component {
         </label>
         <label>
           CPF:
-          <textarea 
+          <input 
             className="input"
             name="cpf"
             type="text"
@@ -46,7 +46,7 @@ class PersonalData extends Component {
         </label>
         <label>
           Endereço:
-          <textarea 
+          <input 
             className="input"
             name="address"
             value={address}
@@ -58,7 +58,7 @@ class PersonalData extends Component {
         </label>
         <label>
           Cidade:
-          <textarea 
+          <input 
             className="input"
             name="city"
             type="text"
@@ -83,14 +83,14 @@ class PersonalData extends Component {
           Tipo de Moradia:
           <label>
             Casa
-            <textarea 
+            <input 
               name="moradia"
               type="radio"
             />
           </label>
           <label>
             Apartamento
-            <textarea 
+            <input 
               name="moradia"
               type="radio"
             />
